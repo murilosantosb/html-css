@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferentes tamanhos de imagens</title>
+</head>
+<body>
+    <h1>Testando tamanhos de imagens</h1>
+    <picture>
+        <source media="(max-width: 650px )" srcset="imagens1/bg-desktop300.jpg" 
+        type="image/jpg">
+        <source media="(max-width: 850px )" srcset="imagens1/bg-desktop700.jpg"
+         type="image/jpg">
+      <img src="./imagens1/bg-desktop1000.jpg" alt="imagem flexivel">
+    </picture>
+    
+</body>
+</html>
