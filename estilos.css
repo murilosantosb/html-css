@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+display: flex;
+
+}
+div{
+    display: flex;
+    flex-direction: row;
+    height:200px ;
+    width: 300px;
+    background-color: rgb(185, 144, 144);
+    margin: 10px;
+
+}
+div.p1{
+    display: flex;
+    
+}
