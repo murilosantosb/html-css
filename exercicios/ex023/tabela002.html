@@ -8,6 +8,12 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 15px;
+            background-color: rgba(211, 157, 86, 0.822);
+        }
         table{
             width: 500px;
             border-collapse: collapse;
@@ -20,9 +26,13 @@
             background-color: burlywood;
             color: white;
         }
+        tbody > tr:nth-child(){
+            background-color: lightgray;
+        }
         td.num{
             text-align: end;
         }
+
     </style>
 </head>
 <body>
@@ -30,15 +40,17 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+             CAPTION - não pode colocar tr e td , só o texto
              THEAD - Cabeça
              TBODY - Corpo
              TFOOT - Rodapé
            Em todas pode ter : TR, TD, TH  
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 100px;">População</th>
 
         </thead>
         <tbody>
@@ -105,7 +117,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes:</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
 
