@@ -10,26 +10,45 @@
         }
         table{
             border-collapse: collapse;
+            margin-left: 15px;
+            
 
         }
-        thead  th{
+        thead,tbody,th,td{
            border: 1px solid black;
+           padding:5px;
+           width: 100px;
+           text-align: center;
+        }
+       
+        .cor{
+            background-color: rgb(104, 103, 103);
+            color: white;
+        }
+        #media{
+            text-align: left;
         }
     </style>
 </head>
 <body>
     <table>
-        <thead>
-            <th rowspan="2">Área</th>
-            <th>Disciplinas</th>
-            <th>Notas</th>
-            <th>Nota 1</th>
-            <th>Nota 2</th>
-            <th>Média</th>
-
-        </thead>
-
+        
+        
+        
         <tbody>
+               
+                    <th rowspan="2"  class="cor">Área</th>
+                    <th scope="col" rowspan="2" class="cor">Disciplinas</th>
+                    <th  colspan="2" class="cor">Notas</th>
+               
+                    <th rowspan="2"  class="cor">Média</th>
+                   
+            <tr>
+                
+                <th class="cor">Nota 1</th>
+                <th class="cor">Nota 2</th>
+                
+            </tr>
             <tr>
                 <th rowspan="4">Exatas</th>
                 <td>Matemática</td>
@@ -55,7 +74,30 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
+            <tr>
+                <th colspan="4" class="cor" id="media">Média de Exatas</th>
+                <td class="cor">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="cor" id="media">Média de Humanas</th>
+                <td class="cor" >0.0</td>
+            </tr> 
 
+            </tbody>
+         
         </tbody>
     </table>
     
