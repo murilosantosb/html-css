@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+header{
+    background-color: #00A896 ;
+    height: 200px;
+}
+:root{
+    --Azul-Marinho: #003366
+    --Verde-Menta: #00A896
+    --Cinza-Claro: #EAEAEA
+    --Azul-Céu: #87CEEB
+    --Verde-Suave: #C4D600
+}
