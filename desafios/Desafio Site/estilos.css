@@ -7,14 +7,67 @@ body{
    
 }
 
+:root{
+    --Azul-Marinho: #003366;
+    --Verde-Menta: #00A896;
+    --Cinza-Claro: #EAEAEA;
+    --Azul-Céu: #87CEEB;
+    --Verde-Suave: #C4D600;
+}
 header{
-    background-color: #00A896 ;
+    background-color: #00a897 ;
     height: 200px;
 }
-:root{
-    --Azul-Marinho: #003366
-    --Verde-Menta: #00A896
-    --Cinza-Claro: #EAEAEA
-    --Azul-Céu: #87CEEB
-    --Verde-Suave: #C4D600
+header > h1{
+    text-align: center;
+    font-size: 3em;
+    
 }
+nav#container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    
+    
+    
+
+  
+
+}
+nav > a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    min-height: 100vh;
+    width: 80%;
+    margin: 15px auto;
+    line-height: 2.5em;
+    font-size: 1.2em;
+}
+main > h1, h2 {
+    color: #C4D600; 
+}
+#conteudo{
+    background-color: #00336677;
+}
+.imagem{
+    background-color: black;
+    background-image: url(./imagens/pexels-karolina-grabowska-4386442.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    
+
+
+}
+
+
