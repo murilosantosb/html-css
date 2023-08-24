@@ -18,7 +18,7 @@
     </header>
     <main>
         <article>
-            <aside id="conteudo" >
+            <aside class="imagem" id="img1">
                 <h2>O Que Oferecemos</h2>
                 <p>Expertise Aprofundada: Nossa equipe 
                      traz um conjunto diversificado 
@@ -42,7 +42,7 @@
             </aside>
         </article>
         <article>
-            <aside class="imagem">
+            <aside class="conteudo">
                 <h2>Orientações Financeiras e Legais</h2>
                 <p>Bem-vindo à nossa seção de Conteúdo Legal,
                      onde buscamos esclarecer questões jurídicas
@@ -53,7 +53,7 @@
                           fornecer informações claras e úteis
                            sobre direitos, leis e regulamentações.</p> <br>
 
-                 <section id="conteudo">
+                 <section class="conteudo">
                      <h2>Direitos Financeiros: Protegendo seus Interesses</h2>
                      <p>Os direitos financeiros são fundamentais para garantir
                          que você esteja seguro e protegido em suas transações
@@ -67,7 +67,7 @@
                  </section>    
             </aside>
         </article>
-        <aside >
+        <aside class="imagem" id="img2" >
             <h2>Dicas para um Futuro Financeiro Sólido</h2>
             <h3>Postagens Recentes:</h3>
             <p>Orçamentação Inteligente para Iniciantes
@@ -78,47 +78,56 @@
                 Conheça dicas práticas para economizar dinheiro em sua rotina diária, desde cortar gastos supérfluos até aproveitar descontos e ofertas.</p>  
         </aside>
         <section>
-               <h1>Tabela de Dados: Comparativo de Investimentos</h1>
+               <h1 class="Tabela">Tabela de Dados: Comparativo de Investimentos</h1>
+               
             <table>
-                <thead>
+                <colgroup>
+                    <col class="primeiro">
+                    <col class="risco" >
+                    <col class="liquidez">
+                    <col>
+                    </colgroup>
+                    
+                <thead >
                     <th>Tipo de Investimento</th>
-                    <th>Rentabilidade Média Anual</th>
-                    <th>Risco</th>
-                    <th>Liquidez</th>
+                    <th class="row">Rentabilidade Média Anual</th>
+                    <th class="row">Risco</th>
+                    <th class="row">Liquidez</th>
                 </thead>
                 <tbody>
                     <tr>
                         <th>Ações</th>
                         <td>10%</td>
-                        <td>Alto</td>
-                        <td>Média</td>
+                        <td class="alta">Alto</td>
+                        <td class="media">Média</td>
                     </tr>
                     <tr>
                         <th>Títulos do Tesouro</th>
                         <td>7%</td>
-                        <td>Baixo</td>
-                        <td>Alta</td>
+                        <td class="baixo">Baixo</td>
+                        <td class="alta">Alta</td>
                     </tr>
                     <tr>
                         <th>Fundos de Índice</th>
                         <td>8%</td>
-                        <td>Médio</td>
-                        <td>Alta</td>
+                        <td class="media">Médio</td>
+                        <td class="alta">Alta</td>
                     </tr>
                     <tr>
                         <th>Poupança</th>
                         <td>3%</td>
-                        <td>Baixo</td>
-                        <td>Alta</td>
+                        <td class="baixo">Baixo</td>
+                        <td class="alta">Alta</td>
                     </tr>
                 </tbody>
 
             </table>
         </section>
-        <footer>
-            <p>Site Criado por Murilo Programação</p>
-        </footer>
+        
     </main>
+    <footer>
+        <p>Site Criado por Murilo Programação</p>
+    </footer>
 
     
 </body>
