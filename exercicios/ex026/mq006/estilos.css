@@ -8,12 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
-nav {
-    background-color: #333;
-    color: #fff;
-    text-align: left;
-    padding: 10px;
-}
+
 header{
     background-color: gray;
     
@@ -23,13 +18,19 @@ header > h1{
     color: white;
     font-size: 3em;
 }
-nav a {
-    display: block;
+nav {
+    background-color: #33333386;
     color: #fff;
+    text-align: center;
+    
+}
+nav > ul > li > a  {
+    display: block;
     text-decoration: none;
-    padding: 15px ;
-    margin: 10px ;
-    border: 1px solid darkgray;
+    color: white;
+    border: 1px solid gray;
+    padding: 15px;
+
 }
 nav a:hover {
     background-color: white;
@@ -39,13 +40,23 @@ span#burguer{
     display: block;
     background-color: #333;
     color: white;
-    width: ;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+span#burguer:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    width: 80vw;
 }
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    
+    margin: 0px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
