@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça o Login:</title>
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./estilos/media-query.css">
 </head>
 <body>
-    <main>
-        <section>
-            <div class="campo1">
+    <main id="container">
+        <section class="campo1">
+            
                 <h1>Faça login para <br> E entre para o nosso time</h1>
-            </div>
+                <div class="img">...</div>
+            
         </section>
-        <section>
-            <h1>LOGIN</h1>
-            <form action="" method="post">
-
+        <section class="campo2">
+            
+               
+                <form action="" method="post">
+                    <h1>LOGIN</h1>
+                    
+                    <label for="iusu">Usuário</label>
+                    <p><input type="text" name="usu" id="iusu" required maxlength="12" placeholder="Usuário"></p>
+                    <label for="isen">Senha</label>
+                    <p><input type="password" name="sen" id="isen" maxlength="12" required placeholder="Senha"></p>
+                
+                <p> <button id="ibotao">LOGIN</button> </p>
+          
             </form>
         </section>
     </main>
