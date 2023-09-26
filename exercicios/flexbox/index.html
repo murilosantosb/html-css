@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+            display: flex;
+            
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            align-items: flex-start;
+            height: 100vh;
+           
+        }
+
+        .child{
+            width: 20%;
+            height: 200px;
+            background-color: red;
+            border: 1px solid black;
+          
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <div class="child"></div>
+        <div class="child"></div>
+        
+
+    </div> <!--Container-->
+    
+</body>
+</html>
