@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0A0C1B;
+}
+
+main{
+    background-color: #1B1937;
+    color: white;
+    min-width:250px ;
+    max-width: 1200px;
+    width: 1000px;
+
+
+}
+div.centro{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    max-width: 90%;
+    min-width: 90%;
+    
+    
+    
+
+}
+aside.imagem{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+article.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    
+    
+}
+.nav > a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}

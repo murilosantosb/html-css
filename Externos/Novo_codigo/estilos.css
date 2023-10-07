@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background: #FF7978 url(./images/bg-intro-desktop.png);
+   
+
+}
+main{
+   min-height: 100vh;  
+   width: 100vw;
+   position: relative;
+}
+aside > h1{
+    font-weight: bolder;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+aside > p.p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 1.3em;
+}
+
+
+.gratuito{
+    border: 1px solid rebeccapurple;
+    height: 35px;
+    width: 35%;
+    text-align: center;
+    background-color: #5C54A2;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    margin: 15px;
+    
+}
+aside.gratuito{
+    display: block;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    
+}
+strong{
+    color: white;
+    font-weight: bolder;
+}
+section.formulario{
+    background-color: white;
+    width: 35%;
+    height: 500px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
+    
+}
+.formulario{
+     display: block;
+     position: fixed;
+     top: 23%;
+     left: 50%;
+    
+}
+form > input{
+    display: block;
+    height:50px;
+    width: 85%;
+    margin: 35px auto;
+    border-radius: 15px;
+    
+    
+}
+.enviar{
+    background-color: #38CC8A;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+p.texto{
+    text-align: center;
+}
+am{
+    font-weight: bolder;
+    color: red;
+}
+article.conteudo{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+   
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./estilos.css">
+
+ 
+  </style>
+</head>
+<body>
+
+
+  <main>
+
+    <article class="conteudo">
+      <aside >
+        <h1>Aprenda a codificar <br> observando os outros</h1>
+
+        <p class="p">
+          Veja como desenvolvedores experientes resolvem problemas em tempo real. <br>
+           Assistir a tutoriais com script é ótimo,
+          mas entender como <br> os desenvolvedores pensam é inestimável.
+        </p>
+
+      </aside>
+    </article>
+
+    <aside class="gratuito"><strong>Experimente gratuitamente por 7 dias</strong> e depois por US$ 20/mês. Depois disso</aside>
+    <section class="formulario" id="container">
+
+
+      <form action="./mensagem.php" method="post">
+        <p><label for="inome"></label></p>
+        <input type="text" name="nome" id="inome" placeholder="Nome" 
+        minlength="15" required>
+
+        <p><label for="isobrenome"></label></p>
+        <input type="text" name="Sobrenome" id="isobrenome" placeholder="Sobrenome" maxlength="25" required>
+
+        <p><label for="iEmail"></label></p>
+        <input type="email" name="email" id="iEmail" placeholder="Email" required >
+
+        <p><label for="isen"></label></p>
+        <input type="password" name="sen" id="isen" placeholder="Senha" minlength="8"
+        maxlength="15" required>
+
+        <p><label for="enviar"></label></p>
+        <input type="submit" value="Solicite seu teste gratuito" class="enviar" >
+        <p class="texto">Ao clicar no botão, você concorda com nossos <am>termos e serviços</am></p>
+      </form>
+
+    </section>
+    
+
+   
+
+  </main>
+  
+</body>
+</html>
