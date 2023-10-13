@@ -9,13 +9,26 @@
 
 body{
     height: 100vh;
+    background-color: #202020;
+    
 }
 
 nav.menu-lateral{
-    width: 300px;
+    width: 80px;
     height: 100%;
     background-color: #202020;
     padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #FF0077;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral.expandir{
+    width: 300px;
 }
 
 .btn-expandir{
@@ -34,15 +47,25 @@ ul{
     list-style-type: none;
 }
 
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.ativo{
+    background-color: #FF0077;
+}
+
 ul li.item-menu a{
     display: flex;
 
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px 4%;
+    padding: 40px 14%;
+    
     margin-bottom: 20px;
     line-height: 40px;
+    
     
 }
 ul li.item-menu a:hover{
