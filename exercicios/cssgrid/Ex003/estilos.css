@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px 50px;
+    
+    
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    height: 100px;
+    width: 250px;
+    
+}
+
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green{
+    
+    background-color: green;
+}
+
+.blue{
+   
+    background-color: #3498db;
+}
