@@ -1,0 +1,25 @@
+@keyframes animacao{
+/*from*/  0% {background-color: purple;}
+
+/*to*/    50% {background-color: pink;}
+
+          100% {background-color: blueviolet; width: 100%;}
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    animation-name: animacao ; /* Nome do KEYFRAMES*/ 
+    animation-duration: 4s;  /*Duração da Animação */
+    animation-delay: 2s; /* Com quanto tempo dentro do site precisa para a animação aparecer*/ 
+    animation-iteration-count: 2; /*Quantas Vezes o site vai reproduzir essa animação  */
+}
+
